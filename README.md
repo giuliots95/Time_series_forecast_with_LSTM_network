@@ -1,0 +1,2 @@
+# Time_series_forecast_with_LSTM_network
+This repository contains the implementation of a recurrent neural network (LSTM from keras library) with the purpose of forecasting target time series, given the targets historical records and covariates. The project uses a toy data set, while focusing on the data transformation tasks (pandas dataframes to 3D numpy arrays required by recurrent networks) and on the hyperparameters tuning tasks, taking advantage of keras_tuner package.
